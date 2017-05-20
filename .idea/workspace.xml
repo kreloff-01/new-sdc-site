@@ -36,7 +36,7 @@
       <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="285">
               <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
               <folding />
             </state>
@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about-us.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about-us.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/about-us.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage-styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homepage-styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/homepage-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -153,12 +153,12 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/pages/execs/jake.html" />
         <option value="$PROJECT_DIR$/pages/execs/ellery.html" />
-        <option value="$PROJECT_DIR$/css/homepage-styles.css" />
         <option value="$PROJECT_DIR$/pages/execs.html" />
         <option value="$PROJECT_DIR$/navbar.html" />
         <option value="$PROJECT_DIR$/css/about-us.css" />
         <option value="$PROJECT_DIR$/pages/about.html" />
         <option value="$PROJECT_DIR$/js/about-us.js" />
+        <option value="$PROJECT_DIR$/css/homepage-styles.css" />
       </list>
     </option>
   </component>
@@ -736,12 +736,12 @@
       <workItem from="1492207194584" duration="18356000" />
       <workItem from="1494548589023" duration="5403000" />
       <workItem from="1494964842806" duration="44929000" />
-      <workItem from="1495248443899" duration="16919000" />
+      <workItem from="1495248443899" duration="17463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89877000" />
+    <option name="totallyTimeSpent" value="90421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -903,22 +903,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/execs/jake.html" />
     <entry file="file://$PROJECT_DIR$/pages/execs/ellery.html" />
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/homepage-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/calender.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -951,18 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navbar.html">
+    <entry file="file://$PROJECT_DIR$/js/about-us.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/about-us.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="405">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -977,10 +953,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/about-us.js">
+    <entry file="file://$PROJECT_DIR$/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="285">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/about-us.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/homepage-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
