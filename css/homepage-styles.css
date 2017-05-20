@@ -1,0 +1,89 @@
+#navbar-style {
+	height: 7%;
+}
+
+#banner-image {
+	height: 400px;
+	background-image: url("https://images6.alphacoders.com/459/459032.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -45px;
+}
+
+#banner-content {
+	color: white;
+	font-size: 3em;
+	background-color: #0d344b;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banner-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	margin-top: 20px;
+}
+
+#banner-content img {
+	height: 125px;
+}
+
+#banner-title img {
+	padding-right: 15px;
+}
+
+#banner-subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 0.5em;
+	margin-top: -20px;
+}
+
+#content-info {
+	text-align: justify;
+	background-color: white;
+	text-align: center;
+	padding: 2% 0% 2% 0%;
+}
+
+#content-info div{
+	padding-bottom: 1%;
+}
+
+#content-info h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 2.25em;
+}
+
+#content-info p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.0em;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top: 1%;
+}
+
+#footer{
+	background-color: #0d344b;
+}
+
+#footer p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1.0em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	color: white;
+}
+
+#banner-row {
+	margin: auto;
+}
+
+/* */
