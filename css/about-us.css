@@ -20,7 +20,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 /*#tab_list{height:6.5%;} */
 
 #about-us #team{margin-bottom:0; height: 80%; width: 78%; margin:auto;}
-#about-us #team ul{margin:0; list-style:none;}
+#about-us #team ul{margin:auto; list-style:none;}
 /*#about-us #team ul li{margin-bottom:30px;}*/
 #about-us #team ul li figure{text-align:center;}
 #about-us #team ul li figure img{padding-bottom:1%;}
@@ -38,11 +38,12 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 #fall_16 {padding:1.25%; overflow:auto; width:100%;} */
 
 .big_font {font-size: 1.2em;}
+.smol_font {font-size: 1.1em;}
 .full_width {width:100%;}
 .overflow_height {overflow:hidden; padding:1.5% 0% 0% 0%;}
 .img-resize {width:225px;}
 
-.text-custom{width:90%; margin: auto; text-align: center;}
+.text-custom{width:90%; margin: auto; text-align: center; font-size: 1.2em;}
 
 ul.tabs{margin: 0px; padding: 0px; list-style: none;}
 ul.tabs li{background: none; color: #222; display: inline-block; padding: 10px 15px; cursor: pointer;}
@@ -54,6 +55,8 @@ ul.tabs li.current{background: #ededed; color: #222;}
 
 .blocks{display:inline-block; margin:auto; padding:0% 1.5% 1.5% 1.5%;}
 
+.custom-width{margin:auto;}
+
 /* For different screen sizes, fucking inline-block BS */
 
  /* for screens 850px and over */
@@ -63,21 +66,15 @@ ul.tabs li.current{background: #ededed; color: #222;}
 }
 
 @media screen and (max-width: 1150px) and (min-width: 765px) {
-    .custom-width {
-        width: 643px;
-    }
+    .custom-width {width: 643px;}
 }
 
 @media screen and (max-width: 1765px) and (min-width: 1150px) {
-    .custom-width {
-        width: 998px;
-    }
+    .custom-width {width: 998px;}
 }
 
 @media screen and (max-width: 2285px) and (min-width: 1765px) {
-    .custom-width {
-        width: 1377px;
-    }
+    .custom-width {width: 1377px;}
 }
 
 /* if they have a computer screen bigger than that they deserve to break the site */
