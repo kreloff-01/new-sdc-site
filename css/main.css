@@ -4,6 +4,10 @@
 /*       TOOLBAR        */
 /* //////////////////// */
 
+#navbar-style {
+    height: 6%;
+}
+
 #navbar {
     width: 95%;
 }
