@@ -17,14 +17,14 @@
 .photo { margin-left: 5%; }
 .black_outline {text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
 .white_outline {text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
-.sponsor_msg .text-custom{ width:66%; margin: auto; text-align: center; font-size: 1.2em;
-                           color: white; padding:2%;}
+.sponsor_msg .text-custom{ width:66%; margin: auto; text-align: center; font-size: 1.4em;
+                           color: white; padding: 1% 2% 2% 2%;}
 .opaque-bg {background-size: cover; background-image: url("../images/sponsors/background.jpg");}
 
 .sponsor_msg {padding: 1% 3% 3% 3%;}
 .sponsor_msg h2 {margin-top: 0; color: white; text-align: center;}
 .sponsor_msg #top {padding-top:3%;}
-.sponsor_msg h4 {margin-top: 0; color: white; text-align: center;}
+.sponsor_msg h3 {margin-top: 0; color: white; text-align: center;}
 .sponsor_align {padding: 0; text-align: center;}
 .sponsor_block { display: inline-block; margin: auto; padding: 0% 1% 1% 1%;}
 .text-custom #bottom {padding: 0;}
