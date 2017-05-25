@@ -4,112 +4,31 @@
 /*       TOOLBAR        */
 /* //////////////////// */
 
-#navbar-style {
-    height: 6%;
-}
+#navbar-style { height: 6%; }
+#navbar { width: 95%; }
+#quote { padding-top: 1%; margin-bottom: .5%; }
 
-#navbar {
-    width: 95%;
-}
+/* //////////////////// */
+/*     Sponsorship      */
+/* //////////////////// */
 
-#quote {
-    padding-top: 1%;
-    margin-bottom: .5%;
-}
+.sponsor { width: 400px; height: 400px; }
+.sponsor-tier { margin:auto; }
+.photo { margin-left: 5%; }
+.outline {text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
+.sponsor_msg .text-custom{ width:70%; margin: auto; text-align: center; font-size: 1.2em;
+                           color: white;}
+.opaque-bg {background-size: cover; background-image: url("../images/sponsors/background.jpg");}
 
-.sponsor {
-    width: 400px;
-    height: 400px;
-}
+.sponsor_msg {padding: 3%;}
+.sponsor_msg h2 {margin-top: 0; color: white; text-align: center;}
 
-.sponsor-tier {
-    margin:auto;
-}
-
-.photo {
-    margin-left: 5%;
-}
-
-/* Projects page top row paddding*/
-#row-top {
-    padding: 0% 0% 1% 0%;
-}
-
-.nav-button-section{
-    min-height: 50px;
-    margin: auto;
-}
-
-div.margin{
-    margin:auto;
-}
-
-.nav-button:not([disabled]) {
-    color : white;
-    background-color: black;
-    border-radius: 5px 5px 5px 5px;
-    font-size: 16px;
-}
-.nav-button:not([disabled]):hover {
-    background-color: #000e1c;
-    color: white;
-}
-
-/* Schedule css below */
-
-.tabsStaticTabs .after-tabs-area > span {
-    margin-top: 25px;
-    padding-right: 15px;
-    vertical-align: middle;
-    line-height: 30px;
-    height: 35px; }
+.sponsor_align {padding: 0; text-align: center;}
+.gold_sponsors { background-image: url("../images/sponsors/goldbg.jpg"); background-size: cover;}
+.sponsor_block { display: inline-block; margin: auto; padding: 0% 1% 1% 1%;}
 
 
-.md-tabs.md-accent.ng-isolate-scope {
-/* perhaps for later */
-}
 
-/* */
-div.ng-scope.ng-isolate-scope{
-    margin-left: .12%;
-}
-
-/* for inner calendar */
-#schedule{
-    min-height:930px;
-    width:85%;
-    margin:auto;
-}
-
-.tileBackground{
-    background-color: #e6e6e6;
-}
-
-.blankClass{
-    background-color: #fafafa;
-}
-
-.infoText{
-    font-size: .9em;
-    -webkit-margin-before: auto;
-    -webkit-margin-after: auto;
-    -webkit-margin-start: auto;
-    -webkit-margin-end: auto;
-    font-weight: normal;
-     text-transform: capitalize;
-}
-
-/* for days of the week */
-.dayofweek{
-    background-color: #e6e6e6;
-    padding: .4%;
-    text-align:center;
-    font-size:12px;
-    line-height: 24px;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-bottom: .5%;
-}
 
 
 
