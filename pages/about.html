@@ -8,24 +8,26 @@
 -->
 <head>
 <title>UW-Madison Software Dev Club</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
-<link rel="stylesheet" type="text/css" href="../css/framework.css">
-<link rel="stylesheet" type="text/css" href="../css/styles.css">
-<!-- jQuery -->
-<script src="../js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="../js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="../js/jquery-ui-1.12.1/jquery-ui.css">
-<script src="../js/jquery-ui-1.12.1/jquery-ui.js"></script>
-<link rel="stylesheet" type="text/css" href="../css/about-us.css">
-<script src="../js/about-us.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/framework.css">
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../js/jquery-ui-1.12.1/jquery-ui.css">
+    <script src="../js/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/about-us.css">
+    <script src="../js/about-us.js"></script>
 
 </head>
 
 <script>
     $(function(){
         $( "#tabs" ).tabs();
-        $("#nav").load("../navbar.html");
         $("#ellery_pres").load("../pages/execs.html #ellery_pres");
         $("#ellery_pres_1").load("../pages/execs.html #ellery_pres");
         $("#ellery_pres_2").load("../pages/execs.html #ellery_pres");
@@ -63,7 +65,39 @@
 </script>
 
 <body>
-    <div id="nav"></div>
+<!-- Navigation -->
+<div id="navbar-style">
+    <nav class="navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container" id="navbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">UW Software Development Club</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/pages/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/pages/sponsorship.html">Sponsorship</a>
+                    </li>
+                    <li>
+                        <a href="/pages/faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+</div>
     <!-- <div class="wrapper row2"> -->
             <img src="../images/group_photos/serious_group.jpg" class="full_width">
             <div id="about-us" class="clear">

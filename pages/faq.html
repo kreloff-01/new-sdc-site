@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../js/jquery-ui-1.12.1/jquery-ui.css">
+    <script src="../js/jquery-ui-1.12.1/jquery-ui.js"></script>
     <title>UW-Madison Software Dev Club</title>
 </head>
+
 <body>
 
+<!-- Navigation -->
+<div id="navbar-style">
+    <nav class="navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container" id="navbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">UW Software Development Club</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/pages/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/pages/sponsorship.html">Sponsorship</a>
+                    </li>
+                    <li>
+                        <a href="/pages/faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+</div>
+
 <div class="panel-group" id="accordion">
-    <div class="faqHeader">General questions</div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Is account registration required?</a>
-            </h4>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse in">
-            <div class="panel-body">
-                Account registration at <strong>PrepBootstrap</strong> is only required if you will be selling or buying themes.
-                This ensures a valid communication channel for all parties involved in any transactions.
+    <div class="faq_header">Frequently Asked Questions</div>
+    <div class="faq_header sub_header">General questions
+        <div class="panel_container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Can I submit my own Bootstrap templates or themes?</a>
+                    </h4>
+                </div>
+                <div id="collapseTen" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme
+                        or a free one, you are encouraged to contribute. All credits are published along with the resources.
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Can I submit my own Bootstrap templates or themes?</a>
-            </h4>
-        </div>
-        <div id="collapseTen" class="panel-collapse collapse">
-            <div class="panel-body">
-                A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme
-                or a free one, you are encouraged to contribute. All credits are published along with the resources.
-            </div>
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">What is the currency used for all transactions?</a>
-            </h4>
-        </div>
-        <div id="collapseEleven" class="panel-collapse collapse">
-            <div class="panel-body">
-                All prices for themes, templates and other items, including each seller's or buyer's account balance are in <strong>USD</strong>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">What is the currency used for all transactions?</a>
+                    </h4>
+                </div>
+                <div id="collapseEleven" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        All prices for themes, templates and other items, including each seller's or buyer's account balance are in <strong>USD</strong>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="faqHeader">Sellers</div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Who cen sell items?</a>
-            </h4>
-        </div>
+    <div class="faq_header sub_header">Sellers</div>
 
 </body>
 </html>

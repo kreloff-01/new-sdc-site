@@ -4,7 +4,7 @@
 /*       TOOLBAR        */
 /* //////////////////// */
 
-#navbar-style { height: 6%; }
+#navbar-style { height: 50px; }
 #navbar { width: 95%; }
 #quote { padding-top: 1%; margin-bottom: .5%; }
 
@@ -35,6 +35,36 @@ div ul #silver {padding-top:3%;}
 #bronze_sponsors { background-image: url("../images/sponsors/bronzebg.jpg"); background-size: cover; height: 50%;}
 #partners { background-image: url("../images/sponsors/background.jpg"); background-size: cover; height: 50%;}
 
+/* //////////////////// */
+/*         FAQ          */
+/* //////////////////// */
+
+.faq_header { font-size: 27px; margin: 20px;}
+.sub_header { padding-left: 4%;}
+.panel-group {padding: 3%;}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings'; content: '\21e7';
+    float: right; color: #F58723; font-size: 18px; line-height: 12px;
+    /* yes it's ridiculous but you actually need this rotation */
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    color: #454444;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 
 
 
