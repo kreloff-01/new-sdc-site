@@ -39,13 +39,15 @@ div ul #silver {padding-top:3%;}
 /*         FAQ          */
 /* //////////////////// */
 
-.faq_header { font-size: 27px; margin: 20px;}
-.sub_header { padding-left: 4%;}
-.panel-group {padding: 3%;}
+.faq_header { font-size: 27px; margin: 20px; }
+.sub_header { padding: 1% 0% 0% 5%; font-size: 1.7em;}
+.panel-group {padding: 3%; }
+.panel_body { font-size: .7em; padding: 1.2%; }
+.panel_container { padding: 2% 0% 0% 0%; }
 
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'Glyphicons Halflings'; content: '\21e7';
-    float: right; color: #F58723; font-size: 18px; line-height: 12px;
+    float: right; color: #d10500; font-size: 18px; line-height: 12px;
     /* yes it's ridiculous but you actually need this rotation */
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
