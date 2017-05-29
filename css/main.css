@@ -42,8 +42,10 @@ div ul #silver {padding-top:3%;}
 .faq_header { font-size: 27px; margin: 20px; }
 .sub_header { padding: 1% 0% 0% 5%; font-size: 1.7em;}
 .panel-group {padding: 3%; }
-.panel_body { font-size: .7em; padding: 1.2%; }
+.panel_body { font-size: .7em; padding: 1% 2% 1% 2%; }
 .panel_container { padding: 2% 0% 0% 0%; }
+
+#sponsor_sec { padding-top: 3%; }
 
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'Glyphicons Halflings'; content: '\21e7';
