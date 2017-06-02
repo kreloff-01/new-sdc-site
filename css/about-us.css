@@ -57,20 +57,28 @@ ul.tabs li.current{background: #ededed; color: #222;}
 
 .custom-width{margin:auto;}
 
+#second_row {display:inline-block;}
+
 /* For different screen sizes, fucking inline-block BS */
 
  /* for screens 850px and over */
 @media screen and (max-width: 765px) and (min-width: 400px) {
     .custom-width {width: 310px;}
     .blocks {padding-bottom:4%;}
+    #professional_logos {width:280px;}
 }
 
 @media screen and (max-width: 1150px) and (min-width: 765px) {
     .custom-width {width: 643px;}
 }
 
+@media screen and (max-width: 1350px) and (min-width: 765px) {
+    #professional_logos {width:550px;}
+}
+
 @media screen and (max-width: 1765px) and (min-width: 1150px) {
     .custom-width {width: 998px;}
+    /*#professional_logos {width:985px;} */
 }
 
 @media screen and (max-width: 2285px) and (min-width: 1765px) {
