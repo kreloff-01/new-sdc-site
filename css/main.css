@@ -40,34 +40,19 @@ div ul #silver {padding-top:3%;}
 /* //////////////////// */
 
 .faq_header { font-size: 27px; margin: 20px; }
-.sub_header { padding: 1% 0% 0% 5%; font-size: 1.7em;}
-.panel-group {padding: 3%; }
+.sub_header { padding: 1% 5% 0% 5%; font-size: 1.7em;}
+.panel-group {padding: 3% 3% 0% 3%; margin-bottom: 0px;}
 .panel_body { font-size: .7em; padding: 1% 2% 1% 2%; }
 .panel_container { padding: 2% 0% 0% 0%; }
 
+
+#footer_msg { padding: 1.5% 5% 1.5% 5%; margin:auto; font-size: 1.3em; text-align: center; }
 #sponsor_sec { padding-top: 3%; }
 
-.panel-heading [data-toggle="collapse"]:after {
-    font-family: 'Glyphicons Halflings'; content: '\21e7';
-    float: right; color: #d10500; font-size: 18px; line-height: 12px;
-    /* yes it's ridiculous but you actually need this rotation */
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-
-}
-
-.panel-heading [data-toggle="collapse"].collapsed:after {
-    color: #454444;
-    line-height: 22px;
-    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
+@media screen and (max-width: 765px) and (min-width: 400px) {
+    .panel_body { padding: 3% 4% 3% 4%; }
+    #sponsor_sec { padding-top: 7%; }
+    #footer_msg {font-size: 1em; padding: 3% 5% 3% 5%;}
 }
 
 

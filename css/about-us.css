@@ -78,7 +78,6 @@ ul.tabs li.current{background: #ededed; color: #222;}
 
 @media screen and (max-width: 1765px) and (min-width: 1150px) {
     .custom-width {width: 998px;}
-    /*#professional_logos {width:985px;} */
 }
 
 @media screen and (max-width: 2285px) and (min-width: 1765px) {
