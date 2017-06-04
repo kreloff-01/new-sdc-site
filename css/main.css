@@ -14,7 +14,11 @@
 /*        Index         */
 /* //////////////////// */
 
-#logo {height: 200px; width: 200px;}
+#logo {height: 150px; width: 150px;}
+section {padding: 3% 1% 0% 1%;}
+.section-heading {margin: 0; padding: 0; font-size: 2.5em;}
+
+#idx_top {padding-top:5%;}
 
 
 /* //////////////////// */
@@ -73,6 +77,7 @@ div ul #silver {padding-top:3%;}
 
     #sponsor_sec { padding-top: 7%; }
     #footer_msg {font-size: 1em; padding: 3% 5% 3% 5%;}
+    .image-bg-fluid-height #idx_top {padding-top:30%;}
 }
 
 

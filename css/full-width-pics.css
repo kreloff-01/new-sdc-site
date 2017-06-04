@@ -19,7 +19,7 @@ body {
 
 .image-bg-fluid-height {
 	background: url('/images/sponsors/base.jpg') no-repeat center center scroll;
-    padding: 3.5% 0;
+    padding: 2% 0;
 }
 
 .image-bg-fixed-height {
@@ -29,10 +29,6 @@ body {
 
 .img-center {
 	margin: 0 auto;
-}
-
-section {
-    padding: 3%;
 }
 
 .section-heading {
