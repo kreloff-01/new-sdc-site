@@ -4,11 +4,15 @@
 /*    Header / Footer   */
 /* //////////////////// */
 
+.no_margin {margin-top: 0px;}
+
 #navbar-style { height: 5%; }
 #navbar { width: 95%; }
 #quote { padding-top: 1%; margin-bottom: .5%; }
 
-#footer { background-color: #000; }
+#footer { background-color: #000; margin: 0; height: 200px; }
+#footer_text { color: #ffffff; padding: 3%; }
+
 
 /* //////////////////// */
 /*        Index         */
@@ -16,9 +20,13 @@
 
 #logo {height: 150px; width: 150px;}
 section {padding: 3% 1% 0% 1%;}
-.section-heading {margin: 0; padding: 0; font-size: 2.5em;}
+.section-heading {margin: 0; padding: 0; font-size: 2.5em; text-align: center;}
+.image_width { width: 100%; }
+.section-paragraph {width: 97%; text-align: center; margin: auto; padding-left: 5%; font-family: inherit;
+    font-size: 18px; font-weight: 300; padding-bottom: 3%;}
 
 #idx_top {padding-top:5%;}
+#bottom_photo { padding-bottom: 0;}
 
 
 /* //////////////////// */
