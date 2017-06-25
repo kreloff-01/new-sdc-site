@@ -13,8 +13,10 @@
 #footer { background-color: #000; margin: 0; }
 #footer_first {padding: 0% 3% 3% 7%;}
 #margin_footer {margin:4%;}
+#left_pad {padding-left: 16%;}
 
 .padding_footer {padding-bottom: 1%;}
+.height_set {height: 32%;}
 
 #no_top {padding: 0% 3% 3% 3%;}
 #no_bot {padding: 3% 3% 0% 3%;}
@@ -27,7 +29,7 @@
 .footer_list a:hover {text-decoration: none; color: #FFF;}
 .footer_list a:active {color: #9d9d9d;}
 
-.inline {display: inline-block; width:35%; padding-left:5%;}
+.inline {display: inline-block; width:100%; padding-left:7%;}
 
 .black_hover a:link {color: #9d9d9d;}
 .black_hover a:visited{color: #9d9d9d;}
@@ -105,9 +107,12 @@ div ul #silver {padding-top:3%;}
     .s_msg .text-custom { width: 90%; }
     .s_msg #top {padding-top:13%;}
 
+    #left_pad {padding-left: 39%;}
     #sponsor_sec { padding-top: 7%; }
     #footer_msg {font-size: 1em; padding: 3% 5% 3% 5%;}
     .image-bg-fluid-height #idx_top {padding-top:30%;}
+    .height_set {height: 27%;}
+
 }
 
 
