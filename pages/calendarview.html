@@ -3,10 +3,10 @@
 
 <head>
     <!-- Custom CSS -->
-    <link href="css/full-width-pics.css" rel="stylesheet">
+    <link href="/css/full-width-pics.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/calendar.css">
+    <link rel='stylesheet' href='/css/fullcalendar.min.css' />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,6 +38,31 @@
 </head>
 
 <body>
+
+<!-- Modal for calendar -->
+<div class="modal fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="eventModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="eventModalTitle">Modal title</h5>
+              <p>
+                <span class="glyphicon glyphicon-time"></span> <span id="eventModalStartTime"></span> - <span id="eventModalEndTime"></span></p>    
+                <p><span class="glyphicon glyphicon-map-marker"></span> <span id="eventModalLocation"></span>
+              </p>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <span id="eventModalDescription"></span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Navigation -->
     <nav class="navbar-inverse navbar-fixed-top" role="navigation">
@@ -83,28 +108,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="section-heading">Welcome to the SDC!</h2>
-                    <p class="lead section-lead">UW-Madison's premiere club for programmatically inclined students.
-                        <br>Meetings begin on September 20th, 2017 @ 5:30PM, Computer Sciences, Room 1221.</p>
-                    <p class="lead section-lead"> </p>
+                    <center><h1>Upcoming Events Calendar</h1></center>
+                    <div id='calendar'></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <header class="image-bg-fluid-height">
-        <img id="group_1" class="image_width" src="/images/group_photos/group_smile.JPG" alt="">
-    </header>
+
     <!-- More content -->
 
 <!-- More content -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 padding_bit">
-                    <p class="no_margin lead section-lead">Opportunities that last a lifetime</p>
-                    <p class="section-paragraph">Between resum&eacute; building, tech talks, company outreach,
-                        hackathons, and social events, the SDC is a great place to network both professionally and casually.
-                        <br>You'll learn the tools and meet the people that will help you lay the foundation for your Computer Science career!</p>
+                    
                 </div>
             </div>
             <!-- /.row -->
@@ -153,10 +171,53 @@
 </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+
+    <script src='/js/moment.min.js'></script>
+
+    <script src='/js/fullcalendar.min.js'></script>
+
+    <script src='/js/gcal.js'></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <script>
+        function formatAMPM(date) {
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var ampm = hours >= 12 ? 'pm' : 'am';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // the hour '0' should be '12'
+            minutes = minutes < 10 ? '0'+minutes : minutes;
+            var strTime = hours + ':' + minutes + ' ' + ampm;
+            return strTime;
+        }
+    </script>
+    <script>
+        // init calendar
+        $(document).ready(function() {
+            $('#calendar').fullCalendar({
+                googleCalendarApiKey: 'AIzaSyBvkHaok-8HIxqvtabluTRoYhkW_sMef6E',
+                events: {
+                    googleCalendarId: 'alecchan.io_37lhdrb7u975lk3q8s4k3kq1q8@group.calendar.google.com'
+                },
+                eventClick: function(calEvent, jsEvent, view) {
+                    $("#eventModalTitle").html(calEvent.title);
+                    var start = new Date(calEvent.start);
+                    var end = new Date(calEvent.end);
+                    $("#eventModalStartTime").text(formatAMPM(start));
+                    $("#eventModalEndTime").text(formatAMPM(end));
+
+                    $("#eventModalDescription").text(calEvent.description);
+                    $("#eventModalLocation").text(calEvent.location);
+                    $("#eventModal").modal();
+                    return false;
+                }
+
+            });
+        });
+    </script>
 
 </body>
 
