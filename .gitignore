@@ -1,0 +1,9 @@
+# ignore node_modules folder
+node_modules/
+
+# ignore intellij garbage
+.idea/
+*.iml
+
+# ignore vscode garbage
+.vscode/
